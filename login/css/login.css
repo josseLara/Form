@@ -4,7 +4,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* font */
+
+/* title*/
 
   
   .conten {
@@ -148,7 +149,7 @@ form input:not([type="checkbox"]){
     float: right;
 }
 
-/* respons */
+/* Responsive  */
 @media screen and (max-width: 980px){
     body{
         background-position: none;
@@ -176,12 +177,3 @@ form input:not([type="checkbox"]){
 
 }
 
-
-@keyframes anim{
-    to{
-        
-    }
-    from{
-       
-    }
-}
