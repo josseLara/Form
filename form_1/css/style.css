@@ -1,0 +1,128 @@
+body{
+  overflow: hidden;
+}
+.bg_img{
+  position: absolute;
+  width: 50% !important;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/3862365/pexels-photo-3862365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.logo{
+  position: absolute;
+  width: 150px;
+  top: -140px;
+  left: 100px;
+}
+h1{
+  margin-top: 250px !important;
+  background-color: rgba(0, 0, 0, 0.246);
+  padding-bottom: 13px;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue; text-shadow: rgb(15, 14, 14) 10px 10px 10px;
+}
+hr{
+  width: 100%;
+  
+}
+/* form */
+.centrar{
+  position: absolute;
+  right: -500px;
+  top: 20%;
+}
+form button{
+  background: linear-gradient(rgb(195, 195, 199),rgb(162, 206, 92)) ;
+  border: none !important;
+}
+form button:hover{
+  background: linear-gradient(rgb(195, 195, 199),rgb(117, 146, 71)) ;
+  
+}
+/* /form */
+/* Responsive  */
+@media screen and (max-width: 1190px){
+  .logo{
+    left: 15%;
+  }
+  .centrar{
+    right: -450px !important;
+  }
+  hr{
+   width: 45%;
+  }
+}
+@media screen and (max-width:1090px){
+  .logo{
+    left: 15%;
+  }
+  .centrar{
+    right: -450px !important;
+  }
+  hr{
+    width: 45%;
+  }
+}
+@media screen and (max-width:990px){
+  .logo{
+    left: 15%;
+  }
+  .centrar{
+    right: -300px !important;
+  }
+  hr{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 900px){
+  
+  hr,.logo{
+    display: none;
+  }
+  .bg_img{
+    width: 100% !important;
+  }
+  h1{
+    margin-top: 0px !important;
+  }
+  .centrar{
+    background-color: rgb(255, 255, 255);
+    width: 70% !important;
+    height: 400px;
+    position: relative;
+    left: 0;
+    bottom: -70px;
+    border-radius: 2%;
+    padding: 3%;
+    
+  }
+  /* fields */
+  .field1,.field2,.field3,.field4{
+    position: absolute;
+    width: 70% !important;
+  }
+  .field1{
+    top:6%;
+  }
+  .field2{
+    top:26%;
+  }
+  .field3{
+    top:46%;
+  }
+  .field4{
+    top:66%;
+    
+  }
+
+ 
+  /* / fields */
+  form button{
+    position: absolute;
+    bottom: 16%;
+  }
+}
