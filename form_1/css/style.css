@@ -100,12 +100,51 @@ form button:hover{
     bottom: 16%;
   }
 }
-@media screen and (max-width: 293px) and (min-width: 0px){
+@media screen and (max-width: 259px) and (min-width: 160px){
+  .centrar{
+    width: 100% !important;
+    left: 0% !important;
+  }
+  h1{
+    position: absolute;
+    top: -20% !important;
+    left: 20% !important;
+  }
+  .logo{
+    left: 30% !important;
+  }
+  .field1,.field2,.field3,.field4{
+    position: absolute;
+    width: 90% !important;
+    left: 4% !important;
+  }
+  
+  .field1{
+    top:6%;
+  
+  }
+  .field2{
+    top:26%;
+  }
+  .field3{
+    top:46%;
+  }
+  .field4{
+    top:66%;
+    
+  } 
+  form button{
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+  }
+}
+@media screen and (max-width: 293px) and (min-width: 260px){
   .bg_img{
-    position: fixed;
+  
     width: 100% !important;
     height: 100% !important;
-    flex-wrap: nowrap;
+   
   }
   .centrar{
     width: 95% !important;
@@ -179,6 +218,7 @@ form button:hover{
 
   .centrar{
       left: 0% !important;
+      width: 90% !important;
     }
 
 }

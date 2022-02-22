@@ -126,7 +126,19 @@ footer{
 
 
 /*  */
-@media screen and (max-width: 292px) and (min-width: 0px){
+
+@media screen and (max-width: 259px) and (min-width: 160px){
+  footer{
+    left: -80%;
+   
+  }
+  .icon{
+    
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media screen and (max-width: 292px) and (min-width: 260px){
   footer{
     left: -50%;
   }
