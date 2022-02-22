@@ -161,7 +161,7 @@ footer{
 @media screen and (max-width: 376px) and (min-width: 322px){
 
   footer{
-    left: -65% !important;
+    left: -60% !important;
   }
   .icon{
     width: 45px !important;
@@ -172,14 +172,15 @@ footer{
 @media screen and (max-width: 426px) and (min-width: 377px){
 
   footer{
-    left: -50% !important;
+    left: 0% !important;
+    margin-left: -100px !important;
   }
 
 }
 @media screen and (max-width: 1026px) and (min-width:  426px){
-
+ 
   footer{
-    left: 0% !important;
+    left: -15% !important;
     top: 560%;
     margin-left: -100px !important;
   }
@@ -192,3 +193,11 @@ footer{
   }
   
 }
+
+@media screen and (max-width: 900px) and (min-width:  500px){
+  footer{
+    left: 0% !important;
+    
+  }
+}
+

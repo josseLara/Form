@@ -140,6 +140,11 @@ form button:hover{
   }
 }
 @media screen and (max-width: 293px) and (min-width: 260px){
+  h1{
+    position: absolute;
+    top: -20% !important;
+    left: 25% !important;
+  }
   .bg_img{
   
     width: 100% !important;
@@ -176,7 +181,11 @@ form button:hover{
   }
 }
 @media screen and (max-width: 321px) and (min-width: 294px){
-
+  h1{
+    position: absolute;
+    top: -20% !important;
+    left: 35% !important;
+  }
   .centrar{
       left: 0px !important;
     }
@@ -208,14 +217,22 @@ form button:hover{
 }
 
 @media screen and (max-width: 376px) and (min-width: 322px){
-
+  h1{
+    position: absolute;
+    top: -20% !important;
+    left: 35% !important;
+  }
   .centrar{
       left: 0px !important;
     }
 
 }
 @media screen and (max-width: 426px) and (min-width: 376px){
-
+  h1{
+    position: absolute;
+    top: -20% !important;
+    left: 35% !important;
+  }
   .centrar{
       left: 0% !important;
       width: 90% !important;
@@ -228,8 +245,10 @@ form button:hover{
    left: 30%;
  }
  h1{
-   margin-top: 400px !important;
- }
+  position: absolute;
+  top: -20% !important;
+  left: 35% !important;
+}
   .centrar{
    left: 0% !important;
    width:80% !important;
