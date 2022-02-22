@@ -1,0 +1,203 @@
+/*
+    Auther: Abdelrhman Said
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+footer{
+    position: relative;
+    top: 10px;
+    right: 25%;
+      
+}
+
+.wrapper {
+  display: inline-flex;
+  margin-left: 35%;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+
+/* Responsive  */
+@media screen and (max-width: 1190px){
+    footer{
+        right: 40%;
+    }
+
+}
+@media screen and (max-width: 900px){
+
+    footer{
+        width: inherit;
+        top: 400px;
+        margin-right: 40%;
+      left: -20%;
+    }
+}
+
+
+/*  */
+
+@media screen and (max-width: 259px) and (min-width: 160px){
+  footer{
+    left: -80%;
+   
+  }
+  .icon{
+    
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media screen and (max-width: 292px) and (min-width: 260px){
+  footer{
+    left: -50%;
+  }
+  .icon{
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media screen and (max-width: 321px) and (min-width: 293px){
+  footer{
+    left: -50%;
+  
+  }
+  .icon{
+    width: 30px !important;
+    height: 30px !important;
+  }
+ 
+}
+@media screen and (max-width: 376px) and (min-width: 322px){
+
+  footer{
+    left: -60% !important;
+  }
+  .icon{
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+}
+@media screen and (max-width: 426px) and (min-width: 377px){
+
+  footer{
+    left: 0% !important;
+    margin-left: -100px !important;
+  }
+
+}
+@media screen and (max-width: 1026px) and (min-width:  426px){
+ 
+  footer{
+    left: -15% !important;
+    top: 560%;
+    margin-left: -100px !important;
+  }
+  
+}
+@media screen and (max-width: 1440px) and (min-width:  1026px){
+  footer{
+    left: -25% !important;
+    top: 350%;
+  }
+  
+}
+
+@media screen and (max-width: 900px) and (min-width:  500px){
+  footer{
+    left: 0% !important;
+    
+  }
+}
+
