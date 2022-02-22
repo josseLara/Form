@@ -124,17 +124,45 @@ footer{
     }
 }
 
-@media screen and (max-width: 550px){
-    footer{
-        width: inherit;
-        margin-right: 10%;
-         left: -65%;
-    }
+
+/*  */
+
+@media screen and (max-width: 321px) and (min-width: 0px){
+  footer{
+    left: -45%;
+  
+  }
+  .icon{
+    width: 30px !important;
+    height: 30px !important;
+  }
+ 
 }
-@media screen and (max-width: 360px){
-    footer{
-        width: inherit;
-        margin-right: 20%;
-         left: -15%;
-    }
+@media screen and (max-width: 376px) and (min-width: 321px){
+
+  footer{
+    left: -50% !important;
+  }
+
+}
+@media screen and (max-width: 426px) and (min-width: 377px){
+
+  footer{
+    left: -45% !important;
+  }
+
+}
+@media screen and (max-width: 1025px) and (min-width:  426px){
+
+  footer{
+    left: -35% !important;
+    top: 560%;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width:  1026px){
+  footer{
+    left: -25% !important;
+    top: 350%;
+  }
+  
 }

@@ -45,7 +45,7 @@ form button:hover{
 }
 /* /form */
 /* Responsive  */
-@media screen and (max-width: 1190px){
+/* @media screen and (max-width: 1190px){
   .logo{
     left: 15%;
   }
@@ -55,8 +55,8 @@ form button:hover{
   hr{
    width: 45%;
   }
-}
-@media screen and (max-width:1090px){
+} */
+/* @media screen and (max-width:1090px){
   .logo{
     left: 15%;
   }
@@ -66,8 +66,8 @@ form button:hover{
   hr{
     width: 45%;
   }
-}
-@media screen and (max-width:990px){
+} */
+/* @media screen and (max-width:990px){
   .logo{
     left: 15%;
   }
@@ -101,6 +101,67 @@ form button:hover{
     
   }
   /* fields */
+  /* .field1,.field2,.field3,.field4{
+    position: absolute;
+    width: 70% !important;
+  }
+  .field1{
+    top:6%;
+  }
+  .field2{
+    top:26%;
+  }
+  .field3{
+    top:46%;
+  }
+  .field4{
+    top:66%;
+    
+  } */
+
+ 
+  /* / fields
+  form button{
+    position: absolute;
+    bottom: 16%;
+  }
+}  */
+
+
+/* .. */
+
+@media screen and (max-width: 425px) {
+  .bg_img{
+    width: 100% !important;
+    object-fit: cover;
+    
+  }
+  hr{
+    position: absolute;
+    top: -100px;
+    left: 0px;
+   
+  }
+  .logo{
+    position: absolute;
+    top: -200px;
+    left:35%;
+    width: 100px;
+    border-radius: 50%;
+    border-bottom: 1px solid black;
+  }
+  .centrar{
+      background-color: rgb(255, 255, 255);
+      width: 90% !important;
+      height: 400px;
+      position: relative;
+      left: -40px !important;
+      top: 200px !important;
+      border-radius: 2%;
+      padding: 3%;
+    }
+
+    
   .field1,.field2,.field3,.field4{
     position: absolute;
     width: 70% !important;
@@ -117,12 +178,133 @@ form button:hover{
   .field4{
     top:66%;
     
-  }
-
- 
-  /* / fields */
+  } 
   form button{
     position: absolute;
     bottom: 16%;
   }
+}
+
+@media screen and (max-width: 321px) and (min-width: 0px){
+
+  .centrar{
+      left: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 376px) and (min-width: 321px){
+
+  .centrar{
+      left: 0px !important;
+    }
+
+}
+@media screen and (max-width: 426px) and (min-width: 376px){
+
+  .centrar{
+      left: 0px !important;
+    }
+
+}
+@media screen and (max-width: 1026px) and (min-width:  426px){
+  hr{
+    display: none;
+  }
+ .logo{
+   left: 30%;
+ }
+ h1{
+   margin-top: 400px !important;
+ }
+  .centrar{
+   left: -20%;
+   width: 400px !important;
+   height: 400px !important;
+   
+  }
+
+  .field1,.field2,.field3,.field4{
+    position: absolute;
+    width: 70% !important;
+  }
+  .field1{
+    top:6%;
+  }
+  .field2{
+    top:26%;
+  }
+  .field3{
+    top:46%;
+  }
+  .field4{
+    top:66%;
+    
+  } 
+  form button{
+    position: absolute;
+    bottom: 16%;
+  }
+}
+
+
+@media screen and (max-width: 1025px) and (min-width: 769px){
+
+  
+ .logo{
+   left: 40%;
+ }
+ 
+  .centrar{
+   left: 0%;
+   width: 450px !important;
+  }
+
+}
+@media screen and (max-width: 1440px) and (min-width:  1026px){
+  .logo{
+    left: 50%;
+  }
+  h1{
+    margin-top: 400px !important;
+  }
+hr{
+  width: 90%;
+}
+   .centrar{
+    left: 10%;
+    width:45% !important;
+    height: 400px;
+   }
+   .field1,.field2,.field3,.field4{
+    position: absolute;
+    width: 70% !important;
+  }
+  .field1{
+    top:6%;
+  }
+  .field2{
+    top:26%;
+  }
+  .field3{
+    top:46%;
+  }
+  .field4{
+    top:66%;
+    
+  } 
+  form button{
+    position: absolute;
+    bottom: 16%;
+  }
+}
+
+@media screen and (max-width: 2561px) and (min-width: 1440px){
+
+  .centrar{
+    left: 20%;
+    width:40% !important;
+    height: 400px;
+   }
+
 }
