@@ -126,10 +126,18 @@ footer{
 
 
 /*  */
-
-@media screen and (max-width: 321px) and (min-width: 0px){
+@media screen and (max-width: 292px) and (min-width: 0px){
   footer{
-    left: -45%;
+    left: -50%;
+  }
+  .icon{
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media screen and (max-width: 321px) and (min-width: 293px){
+  footer{
+    left: -50%;
   
   }
   .icon{
@@ -138,26 +146,32 @@ footer{
   }
  
 }
-@media screen and (max-width: 376px) and (min-width: 321px){
+@media screen and (max-width: 376px) and (min-width: 322px){
 
   footer{
-    left: -50% !important;
+    left: -65% !important;
+  }
+  .icon{
+    width: 45px !important;
+    height: 45px !important;
   }
 
 }
 @media screen and (max-width: 426px) and (min-width: 377px){
 
   footer{
-    left: -45% !important;
+    left: -50% !important;
   }
 
 }
-@media screen and (max-width: 1025px) and (min-width:  426px){
+@media screen and (max-width: 1026px) and (min-width:  426px){
 
   footer{
-    left: -35% !important;
+    left: 0% !important;
     top: 560%;
+    margin-left: -100px !important;
   }
+  
 }
 @media screen and (max-width: 1440px) and (min-width:  1026px){
   footer{
